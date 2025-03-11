@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SparkM6 Solutions</title>
+    <meta name="description"
+        content="SparkM6 Solutions - A team of passionate professionals dedicated to developing innovative software solutions for businesses across industries." />
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="min-h-screen">
+        <!-- Hero Section -->
+        <header class="hero">
+            <nav class="container">
+                <div class="nav-content">
+                    <div class="logo">
+                        <span>SparkM6 Solutions</span>
+                    </div>
+                    <div class="nav-links">
+                        <a href="#services">Services</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#about">Why Choose Us</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <div class="menu-toggle">
+                        <i data-lucide="menu" class="menu-icon"></i>
+
+                    </div>
+
+                </div>
+            </nav>
+            <h1 class="hero-title">Innovative Software Solutions for Your Business</h1><br>
+        </header>
+        <div class="hero-banner">
+            <video autoplay muted loop id="bg-video">
+                <source src="./Assets/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+
+            </video>
+        </div>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i data-lucide="code-2" class="icon-blue"></i>
+                        <h3>Custom Software Development</h3>
+                        <p>Tailored solutions built with cutting-edge technology to meet your specific business needs.
+                        </p>
+                    </div>
+                    <div class="service-card">
+                        <i data-lucide="rocket" class="icon-blue"></i>
+                        <h3>Digital Transformation</h3>
+                        <p>Strategic guidance and implementation to modernize your business processes.</p>
+                    </div>
+                    <div class="service-card">
+                        <i data-lucide="users" class="icon-blue"></i>
+                        <h3>Technical Consulting</h3>
+                        <p>Expert advice and support to help you make informed technology decisions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Our Projects</h2>
+                <p class="section-description">Discover how we've helped businesses transform their digital presence</p>
+
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./Assets/Screenshot 2025-03-09 at 13.59.54.png" alt="Niladariya">
+                            <div class="project-overlay">
+                                <i data-lucide="https://chethaka-2003.github.io/NILADARIYA/" class="icon-white"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Niladariya</h3>
+                            <p>A smart government officer consultation Application, Which allows citizens to connect
+                                with government officers seamlessly.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="./Assets/Sprkm6.png" alt="Our team">
+                    </div>
+                    <div class="about-text">
+                        <h2>Why Choose SparkM6?</h2>
+                        <div class="features-list">
+                            <div class="feature">
+                                <i data-lucide="check-circle-2" class="icon-green"></i>
+                                <span>Combined experience in varietys of technologies</span>
+                            </div>
+                            <div class="feature">
+                                <i data-lucide="check-circle-2" class="icon-green"></i>
+                                <span>Innovative solutions using latest technology</span>
+                            </div>
+                            <div class="feature">
+                                <i data-lucide="check-circle-2" class="icon-green"></i>
+                                <span>Dedicated support and maintenance</span>
+                            </div>
+                            <div class="feature">
+                                <i data-lucide="check-circle-2" class="icon-green"></i>
+                                <span>Agile development methodology</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+                <div class="contact-form-container">
+                    <h2>Contact Us</h2>
+                    <form id="contactForm" onsubmit="return validateForm()">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Your message..."
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            
+        </section>
+
+        <!-- Enhanced Footer -->
+        <footer>
+            <div class="container">
+                <div class="footer-grid">
+                    <!-- Company Info -->
+                    <div class="footer-section">
+                        <div class="footer-logo">
+                            <span>SparkM6 Solutions</span>
+                        </div>
+                        <p class="footer-description">
+                            Transforming businesses through innovative software solutions. Your vision, our expertise.
+                        </p>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="footer-section">
+                        <h3>Contact Us</h3>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i data-lucide="map-pin" class="icon-footer"></i>
+                                <span>No.514/1,<br>Wijaya Mw, <br> Piliyandala, <br> Sri Lanka.</span>
+                            </div>
+                            <div class="contact-item">
+                                <i data-lucide="phone" class="icon-footer"></i>
+                                <span>(+94) 70 763 8012</span>
+                            </div>
+                            <div class="contact-item">
+                                <i data-lucide="mail" class="icon-footer"></i>
+                                <span>info@sparkm6.com</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="footer-section">
+                        <h3>Quick Links</h3>
+                        <ul class="footer-links">
+                            <li><a href="#services">Our Services</a></li>
+                            <li><a href="#projects">Our Projects</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Social Media -->
+                    <div class="footer-section">
+                        <h3>Connect With Us</h3>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/share/1QkeQdUWYs/" class="social-link" aria-label="LinkedIn" target="_blank">
+                                <i data-lucide="facebook" class="icon-footer"></i>
+                            </a>
+                            <a href="https://www.instagram.com/sparkm6_solutions?igsh=bzBoNXVweWpranZs" class="social-link" aria-label="Instagram" target="_blank">
+                                <i data-lucide="instagram" class="icon-footer"></i>
+                            </a>
+                        </div>
+                        <div class="newsletter">
+                            <h4>Stay Updated</h4>
+                            <div class="newsletter-form">
+                                <input type="email" placeholder="Enter your email" aria-label="Email for newsletter">
+                                <button type="submit" aria-label="Subscribe">
+                                    <i data-lucide="send" class="icon-footer"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>© 2024 SparkM6 Solutions. All rights reserved.</p>
+                    <p class="footer-location">Colombo, Sri Lanka</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Custom Alert -->
+    <div id="custom-alert" class="custom-alert">
+        <div id="lottie-animation" class="lottie-animation"></div>
+        <span id="alert-message"></span>
+    </div>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Contact form button handler
+        document.querySelector('.contact-button').addEventListener('click', function () {
+            // You can customize this to open a contact form or redirect to a contact page
+            alert('Contact form functionality will be implemented here');
+        });
+
+        // Newsletter form handler
+        document.querySelector('.newsletter-form button').addEventListener('click', function (e) {
+            e.preventDefault();
+            const email = document.querySelector('.newsletter-form input').value;
+            if (email) {
+                alert('Thank you for subscribing! We\'ll keep you updated.');
+                document.querySelector('.newsletter-form input').value = '';
+            } else {
+                alert('Please enter a valid email address.');
+            }
+        });
+
+        // Project card hover effect
+        document.querySelectorAll('.project-card').forEach(card => {
+            card.addEventListener('click', function () {
+                // You can customize this to open project details or redirect to project page
+                alert('Project details will be displayed here');
+            });
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const navLinks = document.querySelector(".nav-links");
+            const menuToggle = document.querySelector(".menu-toggle");
+
+            menuToggle.addEventListener("click", () => {
+                navLinks.classList.toggle("active");
+            });
+        });
+
+
+
+    </script>
+    <script src="Script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script>
+</body>
+
+</html>
